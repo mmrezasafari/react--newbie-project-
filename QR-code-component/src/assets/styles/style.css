@@ -1,0 +1,34 @@
+.card { 
+    background-color: white;
+    width: 19rem;
+    height: 29rem;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.qr-image {
+    width: 19rem;
+    height: 19rem;
+    border-radius: 5%;
+}
+
+.description{
+    padding: 0 15px 0 15px;
+}
+
+#h-title{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+#p-description{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
